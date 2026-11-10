@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Resep masakan khas Aceh dengan pengaturan porsi, untuk dicoba di rumah.">
+    <meta name="author" content="Semen Dan Beton">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Resep Khas Aceh - Wonderful Aceh</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive-css.css">
+    <link rel="stylesheet" href="assets/css/navbar-fix.css">
+    <link rel="stylesheet" href="assets/css/resep_aceh.css">
+    <link rel="stylesheet" href="assets/css/page-transition.css">
+</head>
+
+<body class="page-rs">
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <a href="index.html" class="logo">WONDERFUL ACEH</a>
+                        <ul class="nav">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="index.html#about">Tentang</a></li>
+                            <li><a href="index.html#features">Fitur Utama</a></li>
+                            <li><a href="index.html#peraturan-syariat">Peraturan Syariat</a></li>
+                            <li><a href="kuliner_aceh.html">Wisata &amp; Kuliner</a></li>
+                            <li><a href="resep_aceh.html" class="active">Resep</a></li>
+                            <li><a href="sejarah-aceh.html">Sejarah</a></li>
+                        </ul>
+                        <a class="menu-trigger"><span>Menu</span></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ***** Hero ***** -->
+    <section class="rs-hero">
+        <div class="container">
+            <h1>Resep Khas Aceh</h1>
+            <p>Rindu masakan Aceh setelah pulang? Pilih hidangan, atur jumlah porsi, dan takaran bahan akan menyesuaikan.</p>
+        </div>
+    </section>
+
+    <!-- ***** Pilihan resep ***** -->
+    <section class="rs-section">
+        <div class="container">
+            <div class="rs-picker" id="rsPicker" role="tablist" aria-label="Pilih resep"></div>
+
+            <!-- ***** Detail resep (diisi oleh resep_aceh.js) ***** -->
+            <article class="rs-detail" id="rsDetail" aria-live="polite">
+                <div class="row">
+                    <div class="col-lg-5 mb-4">
+                        <div class="rs-media"><img id="rsImg" src="" alt=""></div>
+                    </div>
+                    <div class="col-lg-7 mb-4">
+                        <span class="rs-tag" id="rsTag"></span>
+                        <h2 id="rsTitle"></h2>
+                        <p class="rs-intro" id="rsIntro"></p>
+                        <ul class="rs-meta">
+                            <li><i class="fa fa-clock-o"></i> <span id="rsTime"></span></li>
+                            <li><i class="fa fa-signal"></i> <span id="rsLevel"></span></li>
+                        </ul>
+
+                        <div class="rs-servings">
+                            <span class="rs-servings-label">Jumlah porsi</span>
+                            <div class="rs-stepper">
+                                <button type="button" id="rsMinus" aria-label="Kurangi porsi">&minus;</button>
+                                <output id="rsCount" for="rsMinus rsPlus">4</output>
+                                <button type="button" id="rsPlus" aria-label="Tambah porsi">+</button>
+                            </div>
+                            <button type="button" class="rs-reset" id="rsReset">Kembali ke resep asli</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5 mb-4">
+                        <h3>Bahan</h3>
+                        <div id="rsIngredients"></div>
+                        <p class="rs-note">Takaran sudah dihitung ulang, tapi cicipi dulu sebelum menambah garam dan cabai. Waktu memasak tidak ikut dikali.</p>
+                    </div>
+                    <div class="col-lg-7 mb-4">
+                        <h3>Cara membuat</h3>
+                        <ol class="rs-steps" id="rsSteps"></ol>
+                        <p class="rs-tip" id="rsTip"></p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; 2026 Wonderful Aceh - Developed by <strong>Semen Dan Beton</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/resep_aceh.js"></script>
+    <script src="assets/js/page-transition.js"></script>
+</body>
+
+</html>
