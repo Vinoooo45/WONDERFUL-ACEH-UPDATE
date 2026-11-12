@@ -138,23 +138,84 @@
             tips: 'Panaskan kembali sebelum disantap kalau disimpan semalam.'
         },
         {
-            id: 'kopi-sanger', nama: 'Kopi Sanger', tag: 'Minuman', img: 'assets/images/sanger.jpg',
-            porsi: 1, waktu: '5 menit', level: 'Sangat mudah',
-            intro: 'Kopi robusta pekat dengan susu kental manis. Cara paling cepat mengobati rindu warung kopi Aceh.',
+            id: 'bu-sie-itek', nama: 'Bu Sie Itek', tag: 'Makanan Utama', img: 'assets/images/bue sie itiek.jpg',
+            porsi: 4, waktu: '90 menit', level: 'Sedang',
+            intro: 'Nasi putih hangat dengan sie itek, masakan itik berkuah rempah yang tidak berbau amis dan jadi andalan warung makan Aceh.',
             bahan: [
-                { g: 'Bahan', i: [
-                    [2, 'sdm', 'bubuk kopi robusta (Gayo atau Ulee Kareng)'],
-                    [150, 'ml', 'air panas ±95°C'],
-                    [2, 'sdm', 'susu kental manis'],
-                    [null, '', 'gula, jika ingin lebih manis']
+                { g: 'Itik dan kuah', i: [
+                    [800, 'g', 'daging itik, potong sedang'],
+                    [1, 'buah', 'jeruk nipis, untuk melumuri itik'],
+                    [300, 'ml', 'santan kental'],
+                    [400, 'ml', 'air'],
+                    [2, 'batang', 'serai, memarkan'],
+                    [3, 'lembar', 'daun kari'],
+                    [1, 'sdm', 'asam sunti (atau 3 belimbing wuluh)'],
+                    [3, 'sdm', 'minyak goreng'],
+                    [null, '', 'garam']
+                ]},
+                { g: 'Bumbu halus', i: [
+                    [8, 'siung', 'bawang merah'],
+                    [5, 'siung', 'bawang putih'],
+                    [6, 'buah', 'cabai merah keriting'],
+                    [3, 'cm', 'kunyit'],
+                    [3, 'cm', 'jahe'],
+                    [4, 'butir', 'kemiri'],
+                    [1, 'sdm', 'ketumbar'],
+                    [1, 'sdt', 'lada']
+                ]},
+                { g: 'Rempah utuh', i: [
+                    [3, 'butir', 'kapulaga'],
+                    [1, 'batang', 'kayu manis'],
+                    [3, 'butir', 'cengkeh']
+                ]},
+                { g: 'Penyajian', i: [
+                    [4, 'piring', 'nasi putih hangat']
                 ]}
             ],
             langkah: [
-                'Seduh kopi dengan air panas, diamkan 3 menit.',
-                'Masukkan susu kental manis ke gelas.',
-                'Saring kopi ke gelas lalu aduk. Untuk busa, tuang bolak-balik antar dua gelas.'
+                'Lumuri itik dengan air jeruk nipis dan sedikit garam, diamkan 15 menit, lalu cuci bersih. Ini mengurangi bau amis.',
+                'Rebus itik dengan air sampai mendidih sekitar 10 menit, buang air rebusan pertama dan busanya.',
+                'Tumis bumbu halus bersama rempah utuh, serai, dan daun kari sampai harum dan matang.',
+                'Masukkan itik, aduk sampai bumbu merata, lalu tuang air dan asam sunti. Masak dengan api kecil sampai itik hampir empuk.',
+                'Tuang santan sedikit demi sedikit sambil diaduk. Masak sampai itik empuk dan kuah mengental, lalu beri garam. Sajikan dengan nasi hangat.'
             ],
-            tips: 'Kalau ingin lebih ringan, kurangi susu kental manis dan tambah sedikit susu cair hangat.'
+            tips: 'Daging itik lebih alot daripada ayam, jadi sabar dengan api kecil. Panci presto bisa memangkas waktu menjadi sekitar 40 menit.'
+        },
+        {
+            id: 'keumamah', nama: 'Keumamah', tag: 'Makanan Utama', img: 'assets/images/keumamah.jpg',
+            porsi: 4, waktu: '40 menit', level: 'Sedang',
+            intro: 'Gulai ikan kayu, yaitu tongkol yang direbus lalu dikeringkan, dimasak dengan asam sunti, kunyit, dan daun kari. Dulu jadi bekal para pejuang Aceh karena bisa disimpan lama.',
+            bahan: [
+                { g: 'Bahan utama', i: [
+                    [400, 'g', 'ikan kayu (atau tongkol/cakalang asap), iris tipis'],
+                    [400, 'ml', 'air'],
+                    [200, 'ml', 'santan encer'],
+                    [5, 'buah', 'asam sunti (atau 3 belimbing wuluh)'],
+                    [5, 'lembar', 'daun kari'],
+                    [5, 'buah', 'cabai merah, iris serong'],
+                    [1, 'buah', 'tomat, potong'],
+                    [2, 'batang', 'serai, memarkan'],
+                    [2, 'sdm', 'minyak goreng'],
+                    [null, '', 'garam']
+                ]},
+                { g: 'Bumbu halus', i: [
+                    [8, 'siung', 'bawang merah'],
+                    [4, 'siung', 'bawang putih'],
+                    [6, 'buah', 'cabai merah keriting'],
+                    [2, 'cm', 'kunyit'],
+                    [2, 'cm', 'jahe'],
+                    [3, 'butir', 'kemiri'],
+                    [1, 'sdt', 'ketumbar']
+                ]}
+            ],
+            langkah: [
+                'Rendam irisan ikan kayu dengan air panas selama 10 menit supaya lunak, tiriskan dan peras.',
+                'Tumis bumbu halus bersama serai dan daun kari sampai harum.',
+                'Masukkan ikan kayu, aduk rata dengan bumbu.',
+                'Tuang air, santan, dan asam sunti. Masak dengan api sedang sambil sesekali diaduk.',
+                'Tambahkan cabai dan tomat, masak sampai kuah menyusut dan bumbu meresap, sekitar 15 menit. Koreksi rasa.'
+            ],
+            tips: 'Ikan kayu mudah dibeli di Banda Aceh, tapi di luar Aceh bisa diganti tongkol atau cakalang asap. Tambah cabai rawit kalau suka lebih pedas.'
         }
     ];
 
